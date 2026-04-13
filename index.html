@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>我的二维码页面</title>
+    <title>志愿者须知</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
         h1 { color: #333; }
         p { font-size: 18px; line-height: 1.6; }
     </style>
+	<style>
+    .formatted-text {
+      text-indent: 2em;       /* 首行缩进两字符 */
+      width: 10em;            /* 每行10个汉字宽度 */
+      word-break: break-all;  /* 强制换行（兼容旧浏览器） */
+      overflow-wrap: break-word; /* 现代浏览器推荐换行方式 */
+      line-height: 1.6;       /* 行高（可选） */
+      font-size: 16px;        /* 基础字体大小（可选） */
+    }
+  </style>
 </head>
 <body>
-    <h1>欢迎访问！</h1>
-    <p>这是一个通过二维码扫描访问的页面。</p>
-    <p>内容可以包括文字、图片、链接等。</p>
+    <h1>科研采样，自愿参加！</h1>
+    <p>关于 "样本采集流程"</p>
+	<div class="formatted-text">
+	  采集样本前，在信封表面写明个人信息。采样棉签两根均采集，先取出一只棉签，使用尖头端贴于口腔一侧牙床至面颊内侧部位，稍用力擦拭口腔黏膜半分钟左右。取出另一只棉签，同样的方法擦拭另一侧口腔黏膜，然后将棉签采集端朝下放入信封中。
+	</div>
+    <p>关于 "个人信息"</p>
+	<div class="formatted-text">
+	  本研究及志愿者的个人资料均属保密，不会泄露。
+	</div>
+	<p>关于 "样本费"</p>
+	<div class="formatted-text">
+	  我们将支付每位志愿者50元的样本费。
+	</div>
 </body>
 </html>
